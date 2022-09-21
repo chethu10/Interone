@@ -1,0 +1,62 @@
+.image {
+  position: absolute;
+    left: 6%;
+    top: -17%;
+    width: 12%;
+    background-color: black;
+}
+.title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Ld mono", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(255, 196, 0, var(--tw-text-opacity));
+}
+.cont {
+  color: #909090;
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin: 3%;
+}
+.uiuxcard {
+  position: relative;
+  display: flex;
+  width: 296px;
+  height: 95px;
+  margin-left: 2%;
+  margin-top: 3%;
+  padding: 20px 15px;
+  align-items: flex-end;
+  background-color: transparent;
+  border: 1px solid rgb(84, 55, 2);
+  transition: color 0.25s;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.uiuxcard:hover {
+  border: 1px solid orange;
+  transition:0.5s
+}
+@media only screen and (max-width: 1000px) {
+  .uiuxcard{
+    margin: 4%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .uiuxcard{
+    margin: 3%;
+  }
+}@media only screen and (max-width: 400px) {
+  .uiuxcard{
+    margin-left: 18%; 
+  }
+}

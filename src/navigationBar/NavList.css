@@ -1,0 +1,88 @@
+.navspace {
+    z-index: 50;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6%;
+    font-size: 16px;
+    line-height: 8.25rem;
+    width: 65rem;
+    transform: translate(0px);
+    justify-content: center;
+    font-weight: 800;
+    margin-left: 30%;
+}
+@media only screen and (max-width: 1500px) {
+    .navspace {
+        z-index: 50;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6%;
+        font-size: 16px;
+        line-height: 8.25rem;
+        width: 65rem;
+        transform: translate(0px);
+        justify-content: center;
+        font-weight: 800;
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+   .navspace{
+    margin-left: 0%;
+    width: 43rem;
+    gap: 4%;
+    }
+}
+@media only screen and (max-width: 817px) {
+    .navspace{
+        display: none;
+        
+    }
+}
+.home:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.services:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.industries:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.customers:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.technologies:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.blog:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.contact:hover{
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    transition:1s
+}
+.img{
+    width: 6rem;
+    
+}
+@media only screen and (max-width: 817px) {
+    .img{
+        width: 4rem;
+        
+    }
+}

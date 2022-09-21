@@ -1,0 +1,92 @@
+.banking {
+  position: relative;
+  border: 1px solid orange;
+  border-top-left-radius: 10px;
+}
+.banking:hover {
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  filter: brightness(0.3);
+  box-shadow: 1px 8px 20px orange;
+}
+
+.business {
+  
+  border: 1px solid orange;
+  border-top-right-radius: 10px;
+}
+.business:hover {
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  mix-blend-mode: screen;
+  filter: brightness(0.3);
+  box-shadow: 1px 8px 20px orange;
+}
+.education {
+  border: 1px solid orange;
+  border-bottom-right-radius: 10px;
+}
+.education:hover {
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  mix-blend-mode: screen;
+  filter: brightness(0.3);
+  box-shadow: 1px 8px 20px orange;
+}
+.entertainment {
+  border: 1px solid orange;
+}
+.entertainment:hover {
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  mix-blend-mode: screen;
+  filter: brightness(0.3);
+  box-shadow: 1px 8px 20px orange;
+}
+.medical {
+  border: 1px solid orange;
+  border-bottom-left-radius: 10px;
+}
+.medical:hover {
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  mix-blend-mode: screen;
+  filter: brightness(0.3);
+  box-shadow: 1px 8px 20px orange;
+}
+.shopping {
+  border: 1px solid orange;
+  
+}
+.shopping:hover {
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  mix-blend-mode: screen;
+  filter: brightness(0.3);
+  box-shadow: 1px 8px 20px orange;
+}
+.a {
+  display: flex;
+  margin-top: 35%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 27%;
+  gap: 20px;
+}
+.backAndmed {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.busiAndedu {
+  display: flex;
+  gap: 20px;
+  /* height: 425px; */
+}
+
+.enterAndshop {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}

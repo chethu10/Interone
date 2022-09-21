@@ -1,4 +1,7 @@
 body {
+  background-color: black;
+  color: antiquewhite;
+  font-family: "Aldone";
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +13,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+  font-family: "Aldone";
+  font-weight: 100;
+  src: url("./fonts/Aldone-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aldone";
+  font-weight: 300;
+  src: url("./fonts/Aldone-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Aldone";
+  font-weight: 400;
+  src: url("./fonts/Aldone-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aldone";
+  font-weight: 500;
+  src: url("./fonts/Aldone-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aldone";
+  font-weight: 600;
+  src: url("./fonts/Aldone-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aldone";
+  font-weight: 700;
+  src: url("./fonts/Aldone-Bold.otf") format("opentype");
 }

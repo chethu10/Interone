@@ -1,0 +1,62 @@
+.service {
+    display: flex;
+    position: relative;
+}
+.serve{
+    font-family: "Aldone",sans-serif!important;
+    font-size: 5.5rem;
+    line-height: 1;
+    display: flex;
+    --tw-text-opacity: 1;
+    color: rgba(255,196,0,var(--tw-text-opacity));
+    position: absolute;
+    bottom: 13px;
+    left: 9rem;
+    font-weight: 900;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+.stitle{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 5rem;
+}
+.stroke{
+    font-size: 10rem;
+    font-size: 8rem;
+    color: black;
+    margin-left: 40%;
+    -webkit-text-stroke: 2px #666768c8;
+}
+
+@media only screen and (max-width: 900px) {
+    .service{
+        position: relative;
+margin-left: -15%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .service{
+        position: relative;
+        margin-left: -15%;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .service{
+        position: relative;
+        margin-left: -46%;
+        margin-bottom: 7%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .service{
+        position: relative;
+        margin-left: -60%;
+        margin-bottom: 7%;
+    }
+}
+
