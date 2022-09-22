@@ -3,11 +3,12 @@
     flex-wrap: wrap;
     --tw-bg-opacity: 1;
     background-color: rgba(0,0,0,var(--tw-bg-opacity));
-    -webkit-box-pack: start;
     justify-content: flex-start;
-    -webkit-box-align: center;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding-top: -4rem;
+    margin-top: -10%;
     width: 100%;
+    position: fixed;
+    background: black;
+    z-index: 10;
 }

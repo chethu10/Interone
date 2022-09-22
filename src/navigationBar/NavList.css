@@ -78,6 +78,7 @@
 }
 .img{
     width: 6rem;
+    margin-top: 50%;
     
 }
 @media only screen and (max-width: 817px) {
