@@ -5,6 +5,8 @@
 }
 .banking:hover {
   overflow: hidden;
+color: orange;
+z-index: 1;
   transition: all 1s ease 0s;
   filter: brightness(0.3);
   box-shadow: 1px 8px 20px orange;
