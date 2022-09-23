@@ -7,6 +7,32 @@
     margin-left: 10%;
     align-items: center;
 }
+@media only screen and (max-width: 1024px) {
+.blogcont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75rem;
+}
+.blg{
+
+}
+}
+@media only screen and (max-width: 900px) {
+    .blogcont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .blg{
+
+    }
+    }
+    @media only screen and (max-width: 500px) {
+        .blogcont{
+            margin-left: 25%;
+        }}
+
 /* .blogTitle{
     font-size: 4.5rem;
     line-height: 1;
@@ -77,8 +103,7 @@
     margin: 4%;
 }
 .button{
-    font-size: 20px;
-    width: 10%;
+    font-size: 24px;
     display: flex;
     padding: 1%;
     justify-content: center;

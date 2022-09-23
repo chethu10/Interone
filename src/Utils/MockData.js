@@ -185,7 +185,7 @@ bloglink:"/blog/Testing-NestJS-using-est"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/4YSzuL9g5GhpG4oJE49LL9/978610af0e4b46ed8aef131b1dd327f8/crud-nodejs.jpeg",
-content:"Build CRUD API using Express.JS, Node.JS and MongoDB",
+content:"Build CRUD API using Node.JS and MongoDB",
 main:"ExpressJS is the most famous Node.js framework for creating W...",
 bloglink:"/blog/Testing-NestJS-using-est"
 },
@@ -194,67 +194,88 @@ image:"https://images.ctfassets.net/7q3wfja5yi7p/7abFcaSZEy4VHddpFus28e/390b8027
 content:"Testing ExpressJS REST API with Mocha and Chai",
 main:"Getting Started with Mocha and Chai",
 bloglink:"/blog/Testing-NestJS-using-est"
-},
-{image:"https://images.ctfassets.net/7q3wfja5yi7p/DDC51KNiKOh14tYe0ix7g/9aaaeba6d741e3270239167c396c1b74/nodels.png",
+},]
+const BlogSeeMore=[
+  {
+    image: "https://images.ctfassets.net/7q3wfja5yi7p/12wTg1iSxoBtAOEiG6QkJN/7a2a0021355a8b9137e8643220acfbe0/nestjs-testing.png",
+    content:"Testing Nest.JS using jest",
+    main:"Writing tests for the Nest.js application",
+    bloglink:"/blog/Blogclick"
+  },
+  {
+  image:"https://images.ctfassets.net/7q3wfja5yi7p/4THJbmODg7LSdVTG03lMej/840c5ec12c334edee273c4225e53c598/nestjs-logo.png",
+  content:"Building-API-using-Nest.js",
+  main:"I belive that one of the reason Nest.js was created was to...",
+  bloglink:"/blog/Blogclick"
+  },
+  {
+    image:"https://images.ctfassets.net/7q3wfja5yi7p/4YSzuL9g5GhpG4oJE49LL9/978610af0e4b46ed8aef131b1dd327f8/crud-nodejs.jpeg",
+  content:"Build CRUD API using Express.JS, Node.JS and MongoDB",
+  main:"ExpressJS is the most famous Node.js framework for creating W...",
+  bloglink:"/blog/Blogclick"
+  },
+  {
+  image:"https://images.ctfassets.net/7q3wfja5yi7p/7abFcaSZEy4VHddpFus28e/390b80275d4141deb756422c5ba86de3/mach-chai.jpeg",
+  content:"Testing ExpressJS REST API with Mocha and Chai",
+  main:"Getting Started with Mocha and Chai",
+  bloglink:"/blog/Blogclick"
+  },
+  
+  {image:"https://images.ctfassets.net/7q3wfja5yi7p/DDC51KNiKOh14tYe0ix7g/9aaaeba6d741e3270239167c396c1b74/nodels.png",
 content:"Node.js | Event Loop",
 main:"Dependencies",
-bloglink:"/blog/Testing-NestJS-using-est"
+bloglink:"/blog/Blogclick"
 
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/7CtCg0ln1i8dLo7P9XjAHk/5c1793d860dac522317bf97a045a776c/1_PmrNrm9OCIHzONht9eqOuw.png",
   content:"Introduction to Socket.IO in NodeJS with simple example",
   main:"What is Socket.IO ?",
-  bloglink:"/blog/Testing-NestJS-using-est"
+  bloglink:"/blog/Blogclick"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/43xSEe9wsbGRmfSKDNlG6D/5b5a1eb74cfa59205a3f5c926ec2082b/1_g6XDQ9NWYIaKZX3on7Lgmw.png",
   content:"How to Deploy a React App with Firebase Hosting",
   main:"Getting Started",
-  bloglink:"/blog/Testing-NestJS-using-est"
+  bloglink:"/blog/Blogclick"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/4U8vlSzYwUSOIghFLGeEOv/d829bfa0af1a4ea7665d71905a533fa5/nodejs-image.jpeg",
   content:"Express.js Fundamentals",
   main:"Express.js is a fast and lightweight framework used majorly for web...",
-  bloglink:"/blog/Testing-NestJS-using-est"
+  bloglink:"/blog/Blogclick"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/4c8eOeYCLIBUDMtgZcHMbu/ba9541162fe568628b17e0ad617753ec/1_sX8rBJBol5dBp5WIJQrYyw.png",
   content:"react-router: Three Route Rendering Methods",
   main:"Introduction",
-  bloglink:"/blog/Testing-NestJS-using-est"
+  bloglink:"/blog/Blogclick"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/5aHeMdtydCOMf0xwf3nrzT/3575ca67141891c55bdcbcf0b90eff7f/tailwindcss.png",
 content:"Why I love Tailwind CSS: pros and cons...",
 main:"As you might notice, Tailwind CSS has become...",
-bloglink:"/blog/Testing-NestJS-using-est"
+bloglink:"/blog/Blogclick"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/4QiPL9hXRPkVhvb5rYvf82/714ff0d7bd3c1025963160b7ae9ef6a1/react-js-logo-2.jpg",
   content:"ReactJS: What And WhyReactJS: What And Why",
   main:"React.js is the most popular for Web... ",
-  bloglink:"/blog/Testing-NestJS-using-est"
+  bloglink:"/blog/Blogclickt"
 },
 {
   image:"https://images.ctfassets.net/7q3wfja5yi7p/58ZnGH3C34bfosTXYWqB17/e9ff1b6310b02b20c2822c6fd261526f/What-are-the-Advantages-and-Disadvantages-of-React-JS_revised-min.jpg.webp",
   content:"What are the Advantages and Disadvantages of ReactJS.",
   main:"With a constant change in technology...",
-  bloglink:"/blog/Testing-NestJS-using-est"
+  bloglink:"/blog/Blogclick"
 },
 
 ]
 
-const testing_blog=[{
-  title:"Testing Nest.JS using jest",
-  image:"https://images.ctfassets.net/7q3wfja5yi7p/12wTg1iSxoBtAOEiG6QkJN/7a2a0021355a8b9137e8643220acfbe0/nestjs-testing.png",
-  sub1:"Writing tests for the Nest.js application",
-  p1:"Now that our API is working as expected, in this section, well focus on writing tests for the methods defined in the ProductService class that was created earlier. It feels appropriate to only test this part of the application as it handles most of the business logic.",
-  p2:"Nest.js comes with a built-in testing infrastructure, which means we dont have to set up a lot of configuration in terms of testing. Though Nest.js is agnostic to testing tools, it provides integration with Jest out of the box. Jest will provide assert functions and test-double utilities that help with mocking.",
-  p3:"Currently, the product.service.spec.ts file has the following code.",
-}]
+const seemore={
+  button:"/BlogCont/BlogSeeClick"
+}
 
 
 
-export { testing_blog,blog, DevOpsServices, Navtitle, navimage, servicecardcontent, industriesImage,RoutUiUx, AppMaint, WebDep,MobileDevelopment,AppDevelopment, ECommerceServices, TestingServices };
+export {seemore,BlogSeeMore,blog, DevOpsServices, Navtitle, navimage, servicecardcontent, industriesImage,RoutUiUx, AppMaint, WebDep,MobileDevelopment,AppDevelopment, ECommerceServices, TestingServices };

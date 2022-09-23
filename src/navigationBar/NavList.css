@@ -11,6 +11,7 @@
     justify-content: center;
     font-weight: 800;
     margin-left: 30%;
+    margin-top: -12%;
 }
 @media only screen and (max-width: 1500px) {
     .navspace {
@@ -30,9 +31,10 @@
 }
 @media only screen and (max-width: 1200px) {
    .navspace{
-    margin-left: 0%;
+    margin-top: -20%;
     width: 43rem;
     gap: 4%;
+    margin-left: 50%;;
     }
 }
 @media only screen and (max-width: 817px) {

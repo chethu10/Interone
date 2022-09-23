@@ -10,7 +10,7 @@ function BlogProps(props) {
   };
   return (
 
-    
+ 
     <div className="blg" onClick={() => BlogRouteHandler(props.bloglink)}>
       <div>
         <img className="BlogImages" src={props.image} alt="" />
@@ -19,8 +19,9 @@ function BlogProps(props) {
         <div className="con">{props.content}</div>
         <div className="main">{props.main}</div>
       </div>
-    
     </div>
+    
+    
   );
 }
 BlogProps.prototype = {
