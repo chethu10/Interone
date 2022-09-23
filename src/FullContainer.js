@@ -6,6 +6,7 @@ import Ind from './industries/Ind';
 import IndustriesTitle from './industries/IndustriesTitle';
 import Blog from './BlogCont/Blog';
 import BlogTitle from './BlogCont/BlogTitle';
+// import Button from './Button/Button';
 
 function FullContainer() {
   return (
@@ -17,6 +18,7 @@ function FullContainer() {
       <Ind/>
       <BlogTitle/>
       <Blog/>
+      
     </div>
   );
 }

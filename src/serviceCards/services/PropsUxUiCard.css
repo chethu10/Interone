@@ -24,8 +24,27 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  margin: 3%;
+  margin-left: 0%;
 }
+@media only screen and (max-width: 1024px) {
+  .card{
+    flex: 0 0 100rem;
+    margin-left: 26%;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .card{
+    margin-left: 70%;
+  }
+}
+@media only screen and (max-width: 586px) {
+  .card{
+    margin-left: 15rem;
+    flex: 0 0 50rem;
+}
+  }
+
 .uiuxcard {
   position: relative;
   display: flex;
@@ -46,16 +65,16 @@
   border: 1px solid orange;
   transition:0.5s
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .uiuxcard{
     margin: 4%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .uiuxcard{
     margin: 3%;
   }
-}@media only screen and (max-width: 400px) {
+}@media only screen and (max-width: 586px) {
   .uiuxcard{
     margin-left: 18%; 
   }

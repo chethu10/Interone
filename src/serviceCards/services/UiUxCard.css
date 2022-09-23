@@ -4,4 +4,22 @@
     flex-direction: row;
     justify-content: space-around;
 }
+@media only screen and (max-width: 1024px) {
+    .uiux{
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .uiux{
+
+    }
+}
+@media only screen and (max-width: 586px) {
+    .uiux{
+        width: 35%;
+        height: 6%;
+        margin-left: 27%;
+    }
+}
+
 

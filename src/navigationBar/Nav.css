@@ -6,9 +6,29 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: -4rem;
-    margin-top: -10%;
+    margin-left: -40rem;
     width: 100%;
-    position: fixed;
     background: black;
-    z-index: 10;
+  
+}
+@media only screen and (min-width: 1024px) {
+    .nav{
+     
+    
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .nav{
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav{
+
+    }
+}
+@media only screen and (max-width: 586px) {
+    .nav{
+       
+    }
 }

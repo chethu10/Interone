@@ -67,13 +67,39 @@ z-index: 1;
   filter: brightness(0.3);
   box-shadow: 1px 8px 20px orange;
 }
-.a {
+.a{
   display: flex;
   margin-top: 35%;
   justify-content: center;
   align-items: center;
   margin-left: 27%;
   gap: 20px;
+}
+/* @media only screen and (min-width: 1024px) {
+  .a{
+    display: flex;
+  margin-top: 35%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 27%;
+  gap: 20px;
+  }
+} */
+
+@media only screen and (max-width: 1024px) {
+  .a{
+    
+  }
+}
+@media only screen and (max-width: 768px) {
+  .a{
+
+  }
+}@media only screen and (max-width: 586px) {
+  .a{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 .backAndmed {
   display: flex;
