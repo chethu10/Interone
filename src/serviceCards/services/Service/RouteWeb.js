@@ -1,4 +1,4 @@
-import { WebDep} from "../../../Utils/MockData";
+import { WebDep} from "../../../utils/MockData";
 import PropTypes from "prop-types";
 import WebRoutePage from "./WebRoutePage";
 

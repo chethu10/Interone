@@ -1,4 +1,4 @@
-import { AppMaint} from '../../../Utils/MockData';
+import { AppMaint} from '../../../utils/MockData';
 import PropTypes from "prop-types";
 import UiUxRoutPage from './UiUxRoutPage';
 

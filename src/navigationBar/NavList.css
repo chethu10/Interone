@@ -10,8 +10,6 @@
     transform: translate(0px);
     justify-content: center;
     font-weight: 800;
-    margin-left: 30%;
-    margin-top: -12%;
 }
 @media only screen and (max-width: 1500px) {
     .navspace {
@@ -26,15 +24,13 @@
         transform: translate(0px);
         justify-content: center;
         font-weight: 800;
-        margin-left: 30%;
+        /* margin-left: 30%; */
     }
 }
 @media only screen and (max-width: 1200px) {
    .navspace{
-    margin-top: -20%;
-    width: 43rem;
-    gap: 4%;
-    margin-left: 50%;;
+    /* margin-top: -20%; */
+    
     }
 }
 @media only screen and (max-width: 817px) {
@@ -80,12 +76,20 @@
 }
 .img{
     width: 6rem;
-    margin-top: 50%;
+    /*   */
     
 }
+
 @media only screen and (max-width: 817px) {
     .img{
         width: 4rem;
+        
+    }
+}
+@media only screen and (max-width: 500px) {
+    .img{
+        width: 10rem;
+        margin: 20%;
         
     }
 }

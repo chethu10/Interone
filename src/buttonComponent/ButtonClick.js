@@ -1,4 +1,4 @@
-import "../BlogCont/Blog.css";
+import "../blogComponent/Blog.css";
 function ButtonClick(){
     return(
         <div>

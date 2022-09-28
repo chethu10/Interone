@@ -1,4 +1,4 @@
-import { industriesImage } from '../Utils/MockData';
+import { industriesImage } from '../utils/MockData';
 import PropsIndusrtries from "./PropsIndustries";
 import "./IndustriesComp.css";
 function IndustriesComp() {

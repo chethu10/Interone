@@ -1,4 +1,4 @@
-import { BlogSeeMore} from "../Utils/MockData";
+import { BlogSeeMore} from "../utils/MockData";
 import './Blog.css';
 import Blogclick from "./Blogclick";
 

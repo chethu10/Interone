@@ -1,4 +1,4 @@
-import {navimage} from "../Utils/MockData";
+import {navimage} from "../utils/MockData";
 import NavEdt from "./NavEdt";
 
 function Navimage() {

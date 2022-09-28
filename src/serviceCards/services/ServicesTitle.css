@@ -11,7 +11,7 @@
     color: rgba(255,196,0,var(--tw-text-opacity));
     position: absolute;
     bottom: 13px;
-    left: 9rem;
+    /* left: 9rem; */
     font-weight: 900;
     width: 100%;
     flex-wrap: wrap;
@@ -23,40 +23,48 @@
     -webkit-box-pack: start;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-top: 10rem;
+    
 }
 .stroke{
     font-size: 10rem;
     font-size: 8rem;
     color: black;
-    margin-left: 54%;
+    /* margin-left: 54%; */
     -webkit-text-stroke: 2px #666768c8;
 }
 
 @media only screen and (max-width: 900px) {
     .service{
         position: relative;
-margin-left: -15%;
+/* margin-left: -15%; */
     }
 }
 @media only screen and (max-width: 700px) {
     .service{
         position: relative;
-        margin-left: -15%;
+        /* margin-left: -15%; */
     }
 }
 @media only screen and (max-width: 560px) {
     .service{
         position: relative;
-        margin-left: -46%;
-        margin-bottom: 7%;
+        /* margin-left: -46%;
+        margin-bottom: 7%; */
     }
 }
 @media only screen and (max-width: 450px) {
     .service{
         position: relative;
-        margin-left: -60%;
-        margin-bottom: 7%;
+        /* margin-left: -60%;
+        margin-bottom: 7%; */
+    }
+    .serve{
+        font-size: 150px;
+        margin-left: 15%;
+    }
+    .stroke{
+        font-size: 180px;
+        margin-left: 20%;
     }
 }
 

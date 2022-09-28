@@ -24,6 +24,7 @@ z-index: 1;
   filter: brightness(0.3);
   box-shadow: 1px 8px 20px orange;
 }
+
 .education {
   border: 1px solid orange;
   border-bottom-right-radius: 10px;
@@ -68,24 +69,38 @@ z-index: 1;
   box-shadow: 1px 8px 20px orange;
 }
 .a{
-  display: flex;
-  margin-top: 35%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 27%;
-  gap: 20px;
-}
-/* @media only screen and (min-width: 1024px) {
-  .a{
+  text-decoration: none;
+    color: black;
     display: flex;
-  margin-top: 35%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 27%;
-  gap: 20px;
-  }
-} */
+    gap: 1%;
+} 
 
+
+
+
+.backAndmed {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+
+.busiAndedu {
+  display: flex;
+  gap: 20px;
+ 
+  /* height: 425px; */
+}
+
+.enterAndshop {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+ 
+}
 @media only screen and (max-width: 1024px) {
   .a{
     
@@ -97,24 +112,55 @@ z-index: 1;
   }
 }@media only screen and (max-width: 586px) {
   .a{
+    display: flex;
     flex-direction: column;
+    margin-left: 50%;
+    margin-top: 12%;
     flex-wrap: wrap;
   }
-}
-.backAndmed {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
+  .banking{
+    width: 35%;
+    border: 5px solid orange;
+  }
+  
+  .medical{
+    width: 35%;
+    border: 5px solid orange;
+  }
+  
+  .backAndmed{
+    flex-direction: row;
+    width: 102rem;
+  }
+  .entertainment{
+    width: 30%;
+    border: 5px solid orange;
+  }
+  .shopping{
+    width: 30%;
+    border: 5px solid orange;
+  }
+  .busiAndedu{
+    margin-left: 9.5rem;
+    display: flex;
+    margin-top: -10rem;
+    gap: 17px;
+    height: 73rem;
+    width: 54rem;
+    transform: rotate(90deg);
 
-.busiAndedu {
-  display: flex;
-  gap: 20px;
-  /* height: 425px; */
-}
-
-.enterAndshop {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
+  }
+  .enterAndshop{
+    flex-direction: row;
+    width: 101rem;
+    margin-top: -29rem;
+  }
+  .business{
+width: 35%;
+border: 5px solid orange;
+  }
+  .education{
+width: 35%;
+border: 5px solid orange;
+  }
 }

@@ -34,28 +34,33 @@
 
 @media only screen and (max-width: 900px) {
     .Blog{
-        position: relative;
-margin-left: -15%;
+       
+
     }
 }
 @media only screen and (max-width: 700px) {
     .Blog{
-        position: relative;
-        margin-left: -15%;
+        
+      
     }
 }
 @media only screen and (max-width: 560px) {
     .Blog{
-        position: relative;
-        margin-left: -46%;
-        margin-bottom: 7%;
+      
+       
     }
 }
 @media only screen and (max-width: 450px) {
     .Blog{
-        position: relative;
         margin-left: -60%;
-        margin-bottom: 7%;
+       
+    }
+    .blogtit{
+        font-size: 150px;
+        margin-left: 100px;
+    }
+    .Blogstroke{
+        font-size: 180px;
     }
 }
 

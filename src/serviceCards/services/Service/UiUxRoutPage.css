@@ -8,11 +8,12 @@
     gap: 2%;
 }
 .UiuxTitle{
+    display: flex;
     font-weight: 900;
     color: orange;
     font-size: 4.5rem;
     line-height: 1;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 }
 
 .pic{
@@ -24,21 +25,22 @@
    
 }
 .sub{
-    margin-top: 15%;
+    /* margin-top: 15%; */
     font-weight: 900;
     color: orange;
 }
 .content{
+    display: flex;
     color: white;
     display: flex;
     font-size: x-large;
-    margin-left: 10%;
+    /* margin-left: 10%;
     margin-top: 3%;
-    margin-right: 10%;
+    margin-right: 10%; */
 
 }
 .imgAndSub{
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 .UiUxServiceStroke{
     font-size: 10rem;
@@ -46,6 +48,31 @@
     color: black;
     /* margin-left: 0%; */
     z-index: -20;
-    margin-top: -26%;
+    /* margin-top: -26%; */
     -webkit-text-stroke: 2px #666768c8;
 }
+@media only screen and (max-width: 1024px) {
+   
+    
+  }
+  @media only screen and (max-width: 768px) {
+   
+  }
+  @media only screen and (max-width: 586px) {
+    .uiuxcont{
+        margin-top: 25%;
+    }
+    .content{
+        font-size: 12px;
+    }
+    .UiuxTitle{
+        font-size: 50px;
+    }
+    .UiUxServiceStroke{
+        font-size: 80px;
+        margin-top: -70%;
+    }
+    }
+    .imgAndSub{
+        font-size: 12px;
+    }
