@@ -273,7 +273,7 @@ bloglink:"/blog/Blogclick"
 ]
 
 const seemore={
-  button:"/BlogCont/BlogSeeClick"
+  button:"/blogComponent/BlogSeeClick"
 }
 
 

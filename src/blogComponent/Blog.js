@@ -9,7 +9,6 @@ function Blog(props) {
   const history = useNavigate();
 
   const blogRouteHandler = (button) => {
-    console.log(button);
     history(button);
   };
   return (
