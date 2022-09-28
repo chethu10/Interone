@@ -1,4 +1,4 @@
-import { RoutUiUx} from "../../../Utils/MockData";
+import { RoutUiUx} from "../../../utils/MockData";
 import UiUxRoutPage from "./UiUxRoutPage";
 import PropTypes from "prop-types";
 

@@ -1,8 +1,8 @@
-import { blog, seemore } from "../Utils/MockData";
+import { blog, seemore } from "../utils/MockData";
 import BlogProps from "./BlogProps";
 import { useNavigate } from "react-router-dom";
 import "./Blog.css";
-import ButtonClick from "../Button/ButtonClick";
+import ButtonClick from "../buttonComponent/ButtonClick";
 
 function Blog(props) {
   console.log(props);

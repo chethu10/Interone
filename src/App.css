@@ -1,3 +1,22 @@
 .app{
-    
+display: flex;
+align-items: center;
+}
+.app{
+
+}
+
+@media only screen and (max-width: 768px) {
+.app{
+
+}
+}
+@media only screen and (max-width: 586px) {
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 }

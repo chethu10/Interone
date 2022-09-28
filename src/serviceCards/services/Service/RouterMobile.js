@@ -1,4 +1,4 @@
-import { MobileDevelopment} from "../../../Utils/MockData";
+import { MobileDevelopment} from "../../../utils/MockData";
 import PropTypes from "prop-types";
 import MobileRoutePage from "./MobileRoutePage";
 

@@ -1,4 +1,4 @@
-import{/*servicecardImgs*/servicecardcontent} from '../../Utils/MockData';
+import{/*servicecardImgs*/servicecardcontent} from '../../utils/MockData';
 import PropsUxUiCard from './PropsUxUiCard';
 import './PropsUxUiCard.css';
 import PropTypes from 'prop-types';
@@ -17,6 +17,7 @@ function ServiceUxUiCard(){
       </div>
     )
 }
+
 ServiceUxUiCard.proptype={
   link:PropTypes.string,
   image:PropTypes.string,

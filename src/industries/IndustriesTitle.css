@@ -11,7 +11,7 @@
     color: rgba(255,196,0,var(--tw-text-opacity));
     position: absolute;
     bottom: 10px;
-    left: 10rem;
+    /* left: 10rem; */
     font-weight: 800;
     width: 100%;
     flex-wrap: wrap;
@@ -29,49 +29,81 @@
     font-size: 10rem;
     font-size: 8rem;
     color: black;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     -webkit-text-stroke: 2px #666768c8;
 }
 
 @media only screen and (max-width: 900px) {
     .industries{
         position: relative;
-margin-left: -15%;
+/* margin-left: -15%; */
     }
 }
 @media only screen and (max-width: 700px) {
     .industries{
         position: relative;
-        margin-left: -15%;
+        /* margin-left: -15%; */
     }
 }
 @media only screen and (max-width: 560px) {
     .industries{
         position: relative;
-        margin-left: -46%;
-        margin-bottom: 7%;
-    }
+      }
 }
 @media only screen and (max-width: 450px) {
     .industries{
+        /* position: relative;
+        margin-top: 45%; */
         position: relative;
-        margin-left: -60%;
-        margin-bottom: 7%;
+    margin-top: 420%;
+    }
+    .industry{
+        font-size: 150px;
+    margin-left: 5%;
+    
+}
+.industryStroke{
+font-size: 180px;
+margin-left: 10%;
+}
+    }
+
+/* .a{    display: flex; */
+    /* margin-top: 0%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 13%; */
+    /* gap: 20px; */
+/* } */
+/* @media only screen and (max-width: 900px) { */
+    /* .industries{ */
+        /* position: relative; */
+/* margin-left: -15%; */
+    /* } */
+/* } */
+/* @media only screen and (max-width: 700px) {
+    .a{
+      
     }
 }
-.a{    display: flex;
-    margin-top: 0%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 13%;
-    gap: 20px;
+@media only screen and (max-width: 560px) {
+    .a{
+       
+      }
 }
+@media only screen and (max-width: 450px) {
+    .a{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100%;
+    }
+}  */
 .items{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 .src{
     display: flex;

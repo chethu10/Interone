@@ -1,4 +1,4 @@
-import { Navtitle } from "../Utils/MockData";
+import { Navtitle } from "../utils/MockData";
 import NavList from "./NavList";
 import PropTypes from 'prop-types'
 function NavBar() {
